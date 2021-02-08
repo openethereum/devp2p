@@ -1,0 +1,3 @@
+[submodule "reth-scheduler"]
+	path = reth-scheduler
+	url = https://github.com/gnosis/reth-scheduler.git

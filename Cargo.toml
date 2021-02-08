@@ -1,0 +1,17 @@
+[package]
+authors = ["draganrakita <dragan0rakita@gmail.com>"]
+description = "Wrapper arround openethereum devp2p module"
+edition = "2018"
+license = "GPL-3.0"
+name = "devp2p-wrapper"
+version = "0.1.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ethcore-io = {path = "libs/io"}
+ethcore-network = {path = "libs/network"}
+ethcore-network-devp2p = {path = "libs/network-devp2p"}
+reth-scheduler = {path = "reth-scheduler"}
+log = "0.4"
+simple_logger = "1.11"
