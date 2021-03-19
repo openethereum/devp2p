@@ -12,6 +12,8 @@ version = "0.1.0"
 ethcore-io = {path = "libs/io"}
 ethcore-network = {path = "libs/network"}
 ethcore-network-devp2p = {path = "libs/network-devp2p"}
-reth-scheduler = {path = "reth-scheduler"}
+scheduler = {path = "reth/crates/scheduler", package="reth-scheduler"}
+interfaces = {path = "reth/crates/interfaces", package="reth-interfaces"}
+core = {path = "reth/crates/core", package="reth-core"}
 log = "0.4"
 simple_logger = "1.11"
