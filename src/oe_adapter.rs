@@ -5,8 +5,9 @@ extern crate ethcore_io as io;
 extern crate ethcore_network as network;
 extern crate ethcore_network_devp2p as devp2p;
 
-use reth_scheduler::devp2p_adapter::{Devp2pAdapter, Devp2pInbound, PeerPenal};
-use reth_scheduler::scheduler::{
+use interfaces::devp2p::{ProtocolId,Adapter as Devp2pAdapter, Inbound as Devp2pInbound, PeerPenal};
+
+use scheduler::scheduler::{
     peer_organizer::PeerId,
     protocol::*,
 };
